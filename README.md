@@ -2,6 +2,7 @@
 A full-stack Sudoku game with a Python FastAPI backend for generating puzzles and a React frontend for playing the game. The app supports multiple difficulty levels, tracks errors, and provides hints.
 
 🚀 Features
+
 🎮 Interactive Sudoku Board – Click on cells to enter numbers.
 🤖 Auto-Generated Puzzles – Backend dynamically generates Sudoku puzzles at different difficulty levels.
 🎯 Difficulty Levels – Easy, Medium, Hard, Expert.
