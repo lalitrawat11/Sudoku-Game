@@ -1,0 +1,74 @@
+/* Main Container */
+.Desp {
+  padding: 50px;
+  width: 90%;
+  background: rgba(91, 160, 210, 0.85); /* Soft blue with transparency */
+  border-radius: 15px;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: 40px 40px; /* Centered properly */
+  margin-bottom: 40px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(5px); /* Glass effect */
+  overflow: hidden; /* Prevents content from overflowing */
+  word-wrap: break-word;
+  padding-bottom: 0px;
+}
+
+/* Paragraph Styling */
+.Para {
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f0f5fa;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px 15px; /* Space inside the text */
+  margin-bottom: 20px; /* Adds space between paragraphs and lists */
+}
+
+/* Header Styling */
+.Headings {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  padding: 0 15px;
+}
+
+/* List Container */
+.List {
+  background: rgba(240, 248, 255, 0.15); /* Subtle light blue background */
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: 15px 0 25px 0; /* Adjusted margins to fix overlap */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px); /* Soft glass effect */
+}
+
+/* List Items */
+.List li {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 15px;
+  border-left: 4px solid #007bff; /* Blue highlight on the left */
+  margin-bottom: 10px;
+}
+
+/* List Bullet Style */
+.List li::before {
+  content: "✓ ";
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 8px;
+}

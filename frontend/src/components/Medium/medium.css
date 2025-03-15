@@ -1,0 +1,37 @@
+/* Main Container */
+.Desp {
+  padding: 50px;
+  width: 100%;
+  background: rgba(91, 160, 210, 0.85); /* Softer blue shade */
+  border-radius: 15px;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: 40px auto; /* Adjusted for better centering */
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(5px); /* Glass effect */
+}
+
+/* Paragraph Styling */
+.Para {
+  max-width: 1100px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f0f5fa; /* Softer white */
+  font-family: "Lora", serif;
+  font-weight: 400;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+.Headings {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -5px;
+  padding-top: 5px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
