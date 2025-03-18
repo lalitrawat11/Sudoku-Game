@@ -78,6 +78,7 @@ def generate_puzzle(difficulty):
 @app.get("/default")
 def generate_sudoku():
     puzzle, solution = generate_puzzle(0.18)
+    print(puzzle)
     return {"board": puzzle, "solution": solution}
 
 @app.get("/easy")
