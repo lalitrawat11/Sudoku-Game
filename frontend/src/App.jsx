@@ -46,7 +46,7 @@ function App() {
     setCurrentScore((currentScore) => 0);
 
     axios
-      .get(`${import.meta.env.API_URL}/${difficulty}`)
+      .get(`${import.meta.env.API_URL}/${difficulty}/`)
       .then((response) => {
         if (
           response.data &&
