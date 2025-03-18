@@ -137,7 +137,6 @@ function App() {
 
             {/* Sudoku Board */}
             <div className="board-container">
-              isSolved && (<div className="overlay"></div>)
               <div className="board">
                 {board.map((row, rowIndex) =>
                   row.map((num, colIndex) => {
@@ -171,6 +170,7 @@ function App() {
               !board.some((row) => row.length === 0) &&
               isSolved && (
                 <>
+                  <div className="overlay"></div>
                   <div className="success-message">🎉 SUCCESS! 🎉</div>
                   <div className="score-message">
                     Your Score: {currentScore}
