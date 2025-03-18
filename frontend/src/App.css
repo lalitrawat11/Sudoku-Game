@@ -293,23 +293,23 @@ body::before {
   background-color: #000000;
   position: absolute;
   left: 285px; /* Moves it to the right */
-  bottom: 690px;
+  bottom: 700px;
   pointer-events: none;
   z-index: 10;
 }
+
 .overlay {
   position: absolute;
-  top: 10;
-  left: 0;
-  width: 100%; /* Make it board-sized */
-  height: 97%;
+  left: 279px;
+  top: 208px;
+  width: 34.3%; /* Make it board-sized */
+  height: 71.5%;
   background: rgba(0, 0, 0, 0.6); /* Dark transparent overlay */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 10;
-  border-radius: 10px; /* Optional: Keep the board’s rounded look */
+  z-index: 10; /* Optional: Keep the board’s rounded look */
 }
 .board-container {
   position: relative; /* Important: Ensures overlay positions correctly */
