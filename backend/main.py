@@ -99,3 +99,7 @@ def hard_sudoku():
 def expert_sudoku():
     puzzle, solution = generate_puzzle(0.9)
     return {"board": puzzle, "solution": solution}
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello from Sudoku Backend!"}
