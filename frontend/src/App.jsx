@@ -6,7 +6,7 @@ import Easy from "./components/Easy/Easy";
 import Medium from "./components/Medium/medium";
 import Hard from "./components/Hard/hard";
 import Expert from "./components/Expert/expert";
-import Tips from "./components/Tips/tips";
+import Tips from "./components/Tips/Tips";
 import "./App.css";
 
 function App() {
